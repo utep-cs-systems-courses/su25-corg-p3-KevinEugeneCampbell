@@ -1,0 +1,54 @@
+msp430-elf-gcc -mmcu=msp430g2553 -Os -I../h   -c -o pokemon_theme.o pokemon_theme.c
+pokemon_theme.c:15:5: error: initializer element is not constant
+   { p_for(E5), 12 }, { p_for(G5), 12 }, { p_for(A5), 16 }, { p_for(E6), 22 },
+     ^~~~~
+pokemon_theme.c:15:5: note: (near initialization for 'song[0].period')
+pokemon_theme.c:15:24: error: initializer element is not constant
+   { p_for(E5), 12 }, { p_for(G5), 12 }, { p_for(A5), 16 }, { p_for(E6), 22 },
+                        ^~~~~
+pokemon_theme.c:15:24: note: (near initialization for 'song[1].period')
+pokemon_theme.c:15:43: error: initializer element is not constant
+   { p_for(E5), 12 }, { p_for(G5), 12 }, { p_for(A5), 16 }, { p_for(E6), 22 },
+                                           ^~~~~
+pokemon_theme.c:15:43: note: (near initialization for 'song[2].period')
+pokemon_theme.c:15:62: error: initializer element is not constant
+   { p_for(E5), 12 }, { p_for(G5), 12 }, { p_for(A5), 16 }, { p_for(E6), 22 },
+                                                              ^~~~~
+pokemon_theme.c:15:62: note: (near initialization for 'song[3].period')
+pokemon_theme.c:16:5: error: initializer element is not constant
+   { p_for(C6), 14 }, { p_for(B5), 14 }, { p_for(A5), 24 }, { 0, 8 },
+     ^~~~~
+pokemon_theme.c:16:5: note: (near initialization for 'song[4].period')
+pokemon_theme.c:16:24: error: initializer element is not constant
+   { p_for(C6), 14 }, { p_for(B5), 14 }, { p_for(A5), 24 }, { 0, 8 },
+                        ^~~~~
+pokemon_theme.c:16:24: note: (near initialization for 'song[5].period')
+pokemon_theme.c:16:43: error: initializer element is not constant
+   { p_for(C6), 14 }, { p_for(B5), 14 }, { p_for(A5), 24 }, { 0, 8 },
+                                           ^~~~~
+pokemon_theme.c:16:43: note: (near initialization for 'song[6].period')
+pokemon_theme.c:17:5: error: initializer element is not constant
+   { p_for(G5), 12 }, { p_for(E6), 12 }, { p_for(D6), 16 }, { p_for(C6), 22 },
+     ^~~~~
+pokemon_theme.c:17:5: note: (near initialization for 'song[8].period')
+pokemon_theme.c:17:24: error: initializer element is not constant
+   { p_for(G5), 12 }, { p_for(E6), 12 }, { p_for(D6), 16 }, { p_for(C6), 22 },
+                        ^~~~~
+pokemon_theme.c:17:24: note: (near initialization for 'song[9].period')
+pokemon_theme.c:17:43: error: initializer element is not constant
+   { p_for(G5), 12 }, { p_for(E6), 12 }, { p_for(D6), 16 }, { p_for(C6), 22 },
+                                           ^~~~~
+pokemon_theme.c:17:43: note: (near initialization for 'song[10].period')
+pokemon_theme.c:17:62: error: initializer element is not constant
+   { p_for(G5), 12 }, { p_for(E6), 12 }, { p_for(D6), 16 }, { p_for(C6), 22 },
+                                                              ^~~~~
+pokemon_theme.c:17:62: note: (near initialization for 'song[11].period')
+pokemon_theme.c:18:5: error: initializer element is not constant
+   { p_for(B5), 18 }, { p_for(C6), 28 },
+     ^~~~~
+pokemon_theme.c:18:5: note: (near initialization for 'song[12].period')
+pokemon_theme.c:18:24: error: initializer element is not constant
+   { p_for(B5), 18 }, { p_for(C6), 28 },
+                        ^~~~~
+pokemon_theme.c:18:24: note: (near initialization for 'song[13].period')
+make: *** [<builtin>: pokemon_theme.o] Error 1
